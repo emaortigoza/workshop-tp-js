@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&display=swap');
+
+/*font-family: 'Roboto Mono', monospace;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto Mono', monospace;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*Header*/
+
+.cabecera{
+    background-color: white;
+    position: sticky-top;
+
+}
+
+.logo{
+    width: 180px;
+}
+
+/*Catalogo*/
+
+
+.catalogo .card{
+ margin-inline: 20px;
+ margin-bottom: 20px;
+ 
+}
+
+.catalogo .card img{
+    padding: 5px;
+}
+
+
+/*Modal*/
+
+.modal-contenedor{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.modal-contenedor .img-carrito{
+    width: 150px;
+    padding: 20px;
+}
+.modal-content .precioTotal{
+    margin: 10px;
+}
+.piePagina{
+    width: 100%;
+    
+}
+
+.piePagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding:45px 0px;
+}
+.piePagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piePagina .grupo-1 .box figure a img{
+    width: 250px;
+}
+
+.piePagina .grupo-1 .box h2{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.piePagina .grupo-1 .box p{
+    margin-bottom: 10px;
+}
+
+.piePagina .grupo-1 .redSocial a{
+    display: inline-block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    line-height:45px;
+    color: black;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.piePagina .grupo-1 .redSocial a:hover{
+    color: darkcyan;
+}
+
+.piePagina .grupo-2{
+    background-color: aqua;
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(34, 29, 29);
+}
+.piePagina .grupo-2 small{
+    font-size: 15px;
+
+}
+
+@media screen and (max-width:800px){
+    .piePagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding:35px 0px;
+    }
+}
+
