@@ -1,0 +1,11 @@
+[
+    {"nombre": "Anillo", "descripcion":"Lorem ipsum dolor sit amet consectetur.", "precio":"1200", "img":"./img/anillo1.jpg", "id":"1"},
+    {"nombre": "Anillo Firu", "descripcion":"Lorem ipsum dolor sit amet consectetur", "precio":"1400","img":"./img/anillo2.jpg", "id":"2"},
+    {"nombre": "Anillo Cat", "descripcion":"Lorem ipsum dolor sit amet consectetur", "precio":"1600", "img":"./img/anillo3.jpg", "id":"3"},
+    {"nombre": "Pulsera", "descripcion":"Lorem ipsum dolor sit amet consectetur", "precio":"1500", "img":"./img/pulsera1.jpeg", "id":"4"},
+    {"nombre": "Pulsera Firu", "descripcion":"Lorem ipsum dolor sit amet consectetur", "precio":"1700", "img":"./img/pulsera2.jpeg", "id":"5"},
+    {"nombre": "Pulsera Cat", "descripcion":"Lorem ipsum dolor sit amet consectetur", "precio":"1900", "img":"./img/pulsera3.jpeg", "id":"6"},
+    {"nombre": "Collar", "descripcion":"Lorem ipsum dolor sit amet consectetur", "precio":"2000", "img":"./img/collar1.jpeg", "id":"7"},
+    {"nombre": "Collar Firu", "descripcion":"Lorem ipsum dolor sit amet consectetur", "precio":"2300", "img":"./img/collar2.jpeg", "id":"8"},
+    {"nombre": "Collar Cat", "descripcion":"Lorem ipsum dolor sit amet consectetur", "precio":"2600", "img":"./img/collar3.jpeg", "id":"9"}
+  ]  
